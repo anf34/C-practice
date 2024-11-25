@@ -1,13 +1,16 @@
 #include <stdio.h>
 
 
-int main(int argc, char* argv[]) {
-    char str[50];
+int main() {
+
     printf("Type something you would like to be repeated\n");
 
+    char str[50];
     fgets(str, 40, stdin);
     printf("%s", str);
     return 0;
+
+    // Do not use gets(). Use fgets()
 }
 /*
 

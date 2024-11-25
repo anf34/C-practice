@@ -2,8 +2,8 @@
 
 int main() {
     printf("Hiii\n");
-    char name[50];
     printf("What is your name?\n");
+    char name[50];
     scanf("%s",name);
     printf("What is up %s\n", name);
     return 0;
